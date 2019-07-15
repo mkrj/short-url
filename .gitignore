@@ -1,0 +1,9 @@
+env.*
+.env
+!env.example
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.pytest_cache/
+log/
