@@ -5,11 +5,9 @@
 进制转换:将long_url存入mysql数据库，为缩短后的token添加索引以加快查询。利用redis实现一全局计数器，将long_url映射为一个类六十二进制的字符串token。
 
 ## 依赖
-- | -|
---|--|
-python框架| Flask|
-数据库|Mysql, Redis|
-ORM框架| SQLALchemy|
+- python框架: Flask
+- 数据库: Mysql, Redis
+- ORM框架: SQLALchemy
 
 ## 安装
 ```
